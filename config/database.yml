@@ -87,4 +87,4 @@ production:
   database: dogs_production
   username: dogs
   password: <%= ENV['DOGS_DATABASE_PASSWORD'] %>
-  # url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['https://backend-practice-dogs.herokuapp.com/'] %>
